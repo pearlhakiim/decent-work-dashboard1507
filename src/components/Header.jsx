@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Layers, MapPin, Sparkles } from 'lucide-react';
+import { Calendar, Layers, MapPin, Sparkles, PanelLeftClose, PanelLeftOpen } from 'lucide-react';
 
 export default function Header({
   meta,
@@ -8,37 +8,56 @@ export default function Header({
   activeGroup,
   activeSub,
   currentUser,
-  onLogout
+  onLogout,
+  isSidebarOpen,
+  onToggleSidebar
 }) {
   return (
-    <header className="bg-white border-b border-slate-200 px-6 sm:px-8 py-4 sticky top-0 z-20 shadow-xs">
+    <header className="bg-white border-b border-slate-200 px-4 sm:px-8 py-3.5 sticky top-0 z-20 shadow-xs transition-all">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-        {/* Title & Breadcrumb */}
-        <div>
-          <div className="flex items-center gap-2 text-xs font-medium text-slate-500">
-            <span className="flex items-center gap-1">
-              <Layers className="w-3.5 h-3.5 text-blue-600" />
-              Ketenagakerjaan
-            </span>
-            <span>/</span>
-            <span className="text-slate-700 font-semibold">
-              {activeGroup ? activeGroup.title.split('(')[0].trim() : 'Ringkasan Eksekutif'}
-            </span>
-            {activeSub && (
-              <>
-                <span>/</span>
-                <span className="text-blue-600 font-bold truncate max-w-xs sm:max-w-md">
-                  {activeSub.name}
-                </span>
-              </>
+        {/* Sidebar Toggle & Title / Breadcrumb */}
+        <div className="flex items-center gap-3">
+          <button
+            onClick={onToggleSidebar}
+            title={isSidebarOpen ? "Tutup panel menu" : "Buka panel menu"}
+            className="p-2 rounded-xl text-slate-600 hover:text-blue-600 hover:bg-blue-50/80 active:scale-95 transition-all border border-slate-200/80 bg-white shadow-xs cursor-pointer shrink-0"
+          >
+            {isSidebarOpen ? (
+              <PanelLeftClose className="w-5 h-5 text-slate-500" />
+            ) : (
+              <div className="flex items-center gap-1.5 px-0.5">
+                <PanelLeftOpen className="w-5 h-5 text-blue-600" />
+                <span className="text-xs font-bold text-blue-700 hidden sm:inline">Menu</span>
+              </div>
             )}
-          </div>
+          </button>
 
-          <h1 className="text-lg sm:text-xl font-extrabold text-slate-900 mt-0.5 tracking-tight">
-            {activeSub
-              ? activeSub.name
-              : (activeGroup ? activeGroup.title : meta.title)}
-          </h1>
+          <div>
+            <div className="flex items-center gap-2 text-xs font-medium text-slate-500">
+              <span className="flex items-center gap-1">
+                <Layers className="w-3.5 h-3.5 text-blue-600" />
+                Ketenagakerjaan
+              </span>
+              <span>/</span>
+              <span className="text-slate-700 font-semibold">
+                {activeGroup ? activeGroup.title.split('(')[0].trim() : 'Ringkasan Eksekutif'}
+              </span>
+              {activeSub && (
+                <>
+                  <span>/</span>
+                  <span className="text-blue-600 font-bold truncate max-w-xs sm:max-w-md">
+                    {activeSub.name}
+                  </span>
+                </>
+              )}
+            </div>
+
+            <h1 className="text-lg sm:text-xl font-extrabold text-slate-900 mt-0.5 tracking-tight">
+              {activeSub
+                ? activeSub.name
+                : (activeGroup ? activeGroup.title : meta.title)}
+            </h1>
+          </div>
         </div>
 
         {/* Global Year Filter & Location Badge & User Controls */}

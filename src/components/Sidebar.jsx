@@ -10,7 +10,9 @@ import {
   HeartHandshake,
   MessageSquare,
   ChevronRight,
-  BookOpen
+  BookOpen,
+  PanelLeftClose,
+  X
 } from 'lucide-react';
 
 import logoImg from '../assets/logo.png';
@@ -28,6 +30,8 @@ export const groupIcons = {
 };
 
 export default function Sidebar({
+  isOpen = true,
+  onClose,
   indicatorGroups,
   activeGroupId,
   setActiveGroupId,
@@ -39,26 +43,44 @@ export default function Sidebar({
   const groups = Object.values(indicatorGroups);
 
   return (
-    <aside className="w-80 bg-slate-900 text-slate-300 flex flex-col shrink-0 min-h-screen border-r border-slate-800">
-      {/* Brand Header */}
-      <div className="p-5 border-b border-slate-800">
-        <div className="flex items-center gap-3">
-          <div className="w-11 h-11 rounded-2xl bg-slate-800/80 p-1 flex items-center justify-center border border-slate-700/60 shadow-md shadow-blue-500/10 shrink-0">
-            <img src={logoImg} alt="Logo Indikator Pekerjaan Layak" className="w-full h-full object-contain filter drop-shadow" />
-          </div>
-          <div>
-            <h1 className="text-white font-bold text-sm tracking-tight leading-tight">
-              Indikator Pekerjaan Layak
-            </h1>
-            <p className="text-[11px] text-slate-400">Decent Work Indicators 2025</p>
-          </div>
-        </div>
+    <aside
+      className={`fixed lg:static inset-y-0 left-0 z-30 flex flex-col shrink-0 min-h-screen bg-slate-900 text-slate-300 border-r border-slate-800 transition-all duration-300 ease-in-out overflow-hidden select-none ${
+        isOpen
+          ? 'w-80 translate-x-0 opacity-100'
+          : 'w-0 -translate-x-full opacity-0 pointer-events-none border-none'
+      }`}
+    >
+      <div className="w-80 flex flex-col h-full min-h-screen">
+        {/* Brand Header */}
+        <div className="p-5 border-b border-slate-800">
+          <div className="flex items-start justify-between gap-2">
+            <div className="flex items-center gap-3">
+              <div className="w-11 h-11 rounded-2xl bg-slate-800/80 p-1 flex items-center justify-center border border-slate-700/60 shadow-md shadow-blue-500/10 shrink-0">
+                <img src={logoImg} alt="Logo Indikator Pekerjaan Layak" className="w-full h-full object-contain filter drop-shadow" />
+              </div>
+              <div>
+                <h1 className="text-white font-bold text-sm tracking-tight leading-tight">
+                  Indikator Pekerjaan Layak
+                </h1>
+                <p className="text-[11px] text-slate-400">Decent Work Indicators 2025</p>
+              </div>
+            </div>
 
-        <div className="mt-3.5 flex items-center gap-2 bg-slate-800/80 px-2.5 py-1.5 rounded-lg border border-slate-700/60 text-[11px] text-slate-300">
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
-          <span className="truncate">BPS Kab. Tanjung Jabung Barat</span>
+            {/* Close Toggle Button */}
+            <button
+              onClick={onClose}
+              title="Tutup Menu Navigasi"
+              className="p-1.5 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer shrink-0 mt-0.5 border border-slate-800 hover:border-slate-700"
+            >
+              <PanelLeftClose className="w-4 h-4" />
+            </button>
+          </div>
+
+          <div className="mt-3.5 flex items-center gap-2 bg-slate-800/80 px-2.5 py-1.5 rounded-lg border border-slate-700/60 text-[11px] text-slate-300">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
+            <span className="truncate">BPS Kab. Tanjung Jabung Barat</span>
+          </div>
         </div>
-      </div>
 
       {/* Navigation Groups */}
       <div className="flex-1 py-4 px-3 overflow-y-auto space-y-1">
@@ -181,6 +203,7 @@ export default function Sidebar({
           </p>
         </div>
       </div>
-    </aside>
+    </div>
+  </aside>
   );
 }
