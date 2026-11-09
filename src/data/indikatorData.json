@@ -1,0 +1,1484 @@
+{
+  "meta": {
+    "title": "Indikator Pekerjaan Layak 2025",
+    "subTitle": "Badan Pusat Statistik - Kabupaten Tanjung Jabung Barat",
+    "years": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "defaultYear": 2025
+  },
+  "indicators": {
+    "kesempatan_kerja": {
+      "id": "kesempatan_kerja",
+      "number": "01",
+      "name": "Kesempatan Kerja",
+      "subIndicator": "Employment-to-Population Ratio (EPR)",
+      "description": "Mengukur rasio penduduk yang bekerja terhadap seluruh penduduk usia kerja (15 tahun ke atas). Menunjukkan kapasitas ekonomi dalam menciptakan lapangan kerja.",
+      "unit": "%",
+      "metricName": "EPR (%)",
+      "genderData": [
+        {
+          "tahun": 2025,
+          "kategori": "Laki-Laki dan Perempuan",
+          "pekerja": 154821,
+          "usiaKerja": 252647,
+          "nilai": 61.28
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Laki-laki",
+          "pekerja": 109851,
+          "usiaKerja": 130504,
+          "nilai": 84.17
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Perempuan",
+          "pekerja": 44970,
+          "usiaKerja": 122143,
+          "nilai": 36.82
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Laki-Laki dan Perempuan",
+          "pekerja": 163113,
+          "usiaKerja": 248488,
+          "nilai": 65.64
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Laki-laki",
+          "pekerja": 107541,
+          "usiaKerja": 128463,
+          "nilai": 83.71
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perempuan",
+          "pekerja": 55572,
+          "usiaKerja": 120025,
+          "nilai": 46.3
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Laki-Laki dan Perempuan",
+          "pekerja": 166336,
+          "usiaKerja": null,
+          "nilai": 68.1
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Laki-laki",
+          "pekerja": 106875,
+          "usiaKerja": null,
+          "nilai": 84.59
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perempuan",
+          "pekerja": 59461,
+          "usiaKerja": null,
+          "nilai": 50.43
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Laki-Laki dan Perempuan",
+          "pekerja": 172109,
+          "usiaKerja": 253160,
+          "nilai": 67.98
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Laki-laki",
+          "pekerja": 112271,
+          "usiaKerja": 130948,
+          "nilai": 85.74
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perempuan",
+          "pekerja": 59838,
+          "usiaKerja": 122212,
+          "nilai": 48.96
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Laki-Laki dan Perempuan",
+          "pekerja": 179622,
+          "usiaKerja": 249405,
+          "nilai": 72.02
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Laki-laki",
+          "pekerja": 111280,
+          "usiaKerja": 129191,
+          "nilai": 86.14
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perempuan",
+          "pekerja": 68342,
+          "usiaKerja": 120214,
+          "nilai": 56.85
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Laki-Laki dan Perempuan",
+          "pekerja": 179842,
+          "usiaKerja": 245643,
+          "nilai": 73.21
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Laki-laki",
+          "pekerja": 110963,
+          "usiaKerja": 127460,
+          "nilai": 87.06
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Perempuan",
+          "pekerja": 68879,
+          "usiaKerja": 118183,
+          "nilai": 58.28
+        }
+      ],
+      "wilayahData": [
+        {
+          "tahun": 2025,
+          "kategori": "Perkotaan",
+          "pekerja": 60935,
+          "usiaKerja": 111246,
+          "nilai": 54.78
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Pedesaan",
+          "pekerja": 93886,
+          "usiaKerja": 141401,
+          "nilai": 66.4
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perkotaan",
+          "pekerja": 61572,
+          "usiaKerja": 103037,
+          "nilai": 59.76
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Pedesaan",
+          "pekerja": 101541,
+          "usiaKerja": 145451,
+          "nilai": 69.81
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perkotaan",
+          "pekerja": 58635,
+          "usiaKerja": 95894,
+          "nilai": 61.15
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Pedesaan",
+          "pekerja": 113474,
+          "usiaKerja": 157266,
+          "nilai": 72.15
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perkotaan",
+          "pekerja": 63374,
+          "usiaKerja": 93724,
+          "nilai": 67.62
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Pedesaan",
+          "pekerja": 116248,
+          "usiaKerja": 155681,
+          "nilai": 74.67
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Perkotaan",
+          "pekerja": 62117,
+          "usiaKerja": 91553,
+          "nilai": 67.85
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Pedesaan",
+          "pekerja": 117725,
+          "usiaKerja": 154090,
+          "nilai": 76.4
+        }
+      ]
+    },
+    "pendapatan_setara": {
+      "id": "pendapatan_setara",
+      "number": "02",
+      "name": "Pendapatan yang Layak",
+      "subIndicator": "Proporsi Pekerja Penerima Upah Rendah",
+      "description": "Persentase buruh/karyawan yang menerima upah di bawah 2/3 dari median upah per jam. Mengukur tingkat kelayakan upah dan disparitas pendapatan.",
+      "unit": "%",
+      "metricName": "Pekerja Upah Rendah (%)",
+      "genderData": [
+        {
+          "tahun": 2025,
+          "kategori": "Laki-Laki & Perempuan",
+          "pekerja": 11787,
+          "totalBuruh": 39953,
+          "nilai": 29.5
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Laki-laki",
+          "pekerja": 5350,
+          "totalBuruh": 27303,
+          "nilai": 19.59
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Perempuan",
+          "pekerja": 6437,
+          "totalBuruh": 12650,
+          "nilai": 50.89
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Laki-Laki & Perempuan",
+          "pekerja": 4238,
+          "totalBuruh": 49661,
+          "nilai": 8.53
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Laki-laki",
+          "pekerja": 1812,
+          "totalBuruh": 32865,
+          "nilai": 5.51
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perempuan",
+          "pekerja": 2426,
+          "totalBuruh": 16796,
+          "nilai": 14.44
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Laki-Laki & Perempuan",
+          "pekerja": 16060,
+          "totalBuruh": null,
+          "nilai": 32.18
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Laki-laki",
+          "pekerja": 8368,
+          "totalBuruh": null,
+          "nilai": 24.12
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perempuan",
+          "pekerja": 7692,
+          "totalBuruh": null,
+          "nilai": 50.57
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Laki-Laki & Perempuan",
+          "pekerja": 12823,
+          "totalBuruh": 46567,
+          "nilai": 27.54
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Laki-laki",
+          "pekerja": 5093,
+          "totalBuruh": 32042,
+          "nilai": 15.89
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perempuan",
+          "pekerja": 7730,
+          "totalBuruh": 14525,
+          "nilai": 53.22
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Laki-Laki & Perempuan",
+          "pekerja": 12185,
+          "totalBuruh": 38441,
+          "nilai": 31.7
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Laki-laki",
+          "pekerja": 5628,
+          "totalBuruh": 25194,
+          "nilai": 22.34
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perempuan",
+          "pekerja": 6557,
+          "totalBuruh": 13247,
+          "nilai": 49.5
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Laki-Laki & Perempuan",
+          "pekerja": 13053,
+          "totalBuruh": 37357,
+          "nilai": 34.94
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Laki-laki",
+          "pekerja": 5853,
+          "totalBuruh": 24367,
+          "nilai": 24.02
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Perempuan",
+          "pekerja": 7200,
+          "totalBuruh": 12990,
+          "nilai": 55.43
+        }
+      ],
+      "wilayahData": [
+        {
+          "tahun": 2025,
+          "kategori": "Perkotaan",
+          "pekerja": 4955,
+          "totalBuruh": 20803,
+          "nilai": 23.82
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Perdesaan",
+          "pekerja": 6832,
+          "totalBuruh": 19150,
+          "nilai": 35.68
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perkotaan",
+          "pekerja": 2472,
+          "totalBuruh": 23507,
+          "nilai": 10.52
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perdesaan",
+          "pekerja": 1766,
+          "totalBuruh": 26154,
+          "nilai": 6.75
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perkotaan",
+          "pekerja": 8794,
+          "totalBuruh": null,
+          "nilai": 32.36
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perdesaan",
+          "pekerja": 7266,
+          "totalBuruh": null,
+          "nilai": 31.97
+        }
+      ]
+    },
+    "jam_kerja": {
+      "id": "jam_kerja",
+      "number": "03",
+      "name": "Jam Kerja Layak",
+      "subIndicator": "Proporsi Pekerja Jam Kerja Berlebih (>48 Jam/Minggu)",
+      "description": "Mengukur proporsi pekerja yang bekerja melebihi batas jam kerja normal (>48 jam per minggu) yang berpotensi berdampak pada kesehatan dan keseimbangan hidup.",
+      "unit": "%",
+      "metricName": "Jam Kerja Berlebih (%)",
+      "genderData": [
+        {
+          "tahun": 2025,
+          "kategori": "Laki-Laki & Perempuan",
+          "pekerja": 37423,
+          "totalPekerja": 154821,
+          "nilai": 24.17
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Laki-laki",
+          "pekerja": 27234,
+          "totalPekerja": 109851,
+          "nilai": 24.79
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Perempuan",
+          "pekerja": 10189,
+          "totalPekerja": 44970,
+          "nilai": 22.66
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Laki-Laki & Perempuan",
+          "pekerja": 64306,
+          "totalPekerja": 163113,
+          "nilai": 39.42
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Laki-laki",
+          "pekerja": 46637,
+          "totalPekerja": 107541,
+          "nilai": 43.37
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perempuan",
+          "pekerja": 17669,
+          "totalPekerja": 55572,
+          "nilai": 31.79
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Laki-Laki & Perempuan",
+          "pekerja": 40781,
+          "totalPekerja": null,
+          "nilai": 24.87
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Laki-laki",
+          "pekerja": 27667,
+          "totalPekerja": null,
+          "nilai": 26.31
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perempuan",
+          "pekerja": 13114,
+          "totalPekerja": null,
+          "nilai": 22.3
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Laki-Laki & Perempuan",
+          "pekerja": 34791,
+          "totalPekerja": 172109,
+          "nilai": 20.21
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Laki-laki",
+          "pekerja": 25888,
+          "totalPekerja": 112271,
+          "nilai": 23.18
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perempuan",
+          "pekerja": 8766,
+          "totalPekerja": 59838,
+          "nilai": 14.65
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Laki-Laki & Perempuan",
+          "pekerja": 46442,
+          "totalPekerja": 179622,
+          "nilai": 25.86
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Laki-laki",
+          "pekerja": 34441,
+          "totalPekerja": 111280,
+          "nilai": 30.95
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perempuan",
+          "pekerja": 12001,
+          "totalPekerja": 68342,
+          "nilai": 17.56
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Laki-Laki & Perempuan",
+          "pekerja": 43036,
+          "totalPekerja": 179842,
+          "nilai": 23.93
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Laki-laki",
+          "pekerja": 32165,
+          "totalPekerja": 110963,
+          "nilai": 28.99
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Perempuan",
+          "pekerja": 10871,
+          "totalPekerja": 68879,
+          "nilai": 15.78
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Pedesaan",
+          "pekerja": 21479,
+          "totalPekerja": 60935,
+          "nilai": 35.25
+        }
+      ],
+      "wilayahData": [
+        {
+          "tahun": 2025,
+          "kategori": "Pedesaan",
+          "pekerja": 21479,
+          "totalPekerja": 60935,
+          "nilai": 35.25
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Perkotaan",
+          "pekerja": 15944,
+          "totalPekerja": 93886,
+          "nilai": 16.98
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Pedesaan",
+          "pekerja": 33551,
+          "totalPekerja": 101541,
+          "nilai": 33.04
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perkotaan",
+          "pekerja": 30755,
+          "totalPekerja": 61572,
+          "nilai": 49.95
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Pedesaan",
+          "pekerja": 22430,
+          "totalPekerja": null,
+          "nilai": 22.22
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perkotaan",
+          "pekerja": 18351,
+          "totalPekerja": null,
+          "nilai": 29.11
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perkotaan",
+          "pekerja": 17284,
+          "totalPekerja": 58635,
+          "nilai": 29.11
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Pedesaan",
+          "pekerja": 17507,
+          "totalPekerja": 113474,
+          "nilai": 15.43
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perkotaan",
+          "pekerja": 21016,
+          "totalPekerja": 63374,
+          "nilai": 33.16
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Pedesaan",
+          "pekerja": 25426,
+          "totalPekerja": 116248,
+          "nilai": 21.87
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Perkotaan",
+          "pekerja": 19020,
+          "totalPekerja": 62117,
+          "nilai": 30.62
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Pedesaan",
+          "pekerja": 24016,
+          "totalPekerja": 117725,
+          "nilai": 20.4
+        }
+      ]
+    },
+    "pekerjaan_dihapus": {
+      "id": "pekerjaan_dihapus",
+      "number": "04",
+      "name": "Pekerjaan yg Dihapuskan",
+      "subIndicator": "Pekerja Anak & Kerja Paksa",
+      "description": "Pemantauan penghapusan bentuk-bentuk pekerjaan terburuk untuk anak dan kerja paksa sesuai standar ILO.",
+      "unit": "%",
+      "metricName": "Pekerja Anak (%)",
+      "empty": true,
+      "genderData": [],
+      "wilayahData": []
+    },
+    "stabilitas_jaminan": {
+      "id": "stabilitas_jaminan",
+      "number": "05",
+      "name": "Stabilitas & Jaminan",
+      "subIndicator": "Proporsi Precarious Workers (Pekerja Rentan)",
+      "description": "Persentase pekerja yang berada dalam hubungan kerja tidak aman (pekerja lepas, musiman, atau tanpa kontrak formal stabil).",
+      "unit": "%",
+      "metricName": "Precarious Worker (%)",
+      "genderData": [
+        {
+          "tahun": 2025,
+          "kategori": "Laki-Laki  &  Perempuan",
+          "pekerja": 34642,
+          "totalPekerja": 154821,
+          "nilai": 22.38
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Laki-laki",
+          "pekerja": 26828,
+          "totalPekerja": 109851,
+          "nilai": 24.42
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Perempuan",
+          "pekerja": 7814,
+          "totalPekerja": 44970,
+          "nilai": 17.38
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Laki-Laki  &  Perempuan",
+          "pekerja": 60584,
+          "totalPekerja": 163113,
+          "nilai": 37.14
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Laki-laki",
+          "pekerja": 43362,
+          "totalPekerja": 107541,
+          "nilai": 40.32
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perempuan",
+          "pekerja": 17222,
+          "totalPekerja": 55572,
+          "nilai": 30.99
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Laki-Laki  &  Perempuan",
+          "pekerja": 64843,
+          "totalPekerja": 166336,
+          "nilai": 38.98
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Laki-laki",
+          "pekerja": 48774,
+          "totalPekerja": 106875,
+          "nilai": 45.64
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perempuan",
+          "pekerja": 16069,
+          "totalPekerja": 59461,
+          "nilai": 27.02
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Laki-Laki  &  Perempuan",
+          "pekerja": 57815,
+          "totalPekerja": 172109,
+          "nilai": 33.59
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Laki-laki",
+          "pekerja": 43309,
+          "totalPekerja": 112271,
+          "nilai": 38.58
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perempuan",
+          "pekerja": 14506,
+          "totalPekerja": 59838,
+          "nilai": 24.24
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Laki-Laki  &  Perempuan",
+          "pekerja": 18391,
+          "totalPekerja": 179622,
+          "nilai": 10.24
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Laki-laki",
+          "pekerja": 15687,
+          "totalPekerja": 111280,
+          "nilai": 14.1
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perempuan",
+          "pekerja": 2704,
+          "totalPekerja": 68342,
+          "nilai": 3.96
+        }
+      ],
+      "wilayahData": [
+        {
+          "tahun": 2025,
+          "kategori": "Perkotaan",
+          "pekerja": 14305,
+          "totalPekerja": 60935,
+          "nilai": 23.48
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Perdesaan",
+          "pekerja": 20337,
+          "totalPekerja": 93886,
+          "nilai": 21.66
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perkotaan",
+          "pekerja": 29064,
+          "totalPekerja": 61572,
+          "nilai": 47.2
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perdesaan",
+          "pekerja": 31520,
+          "totalPekerja": 101541,
+          "nilai": 31.04
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perkotaan",
+          "pekerja": 30947,
+          "totalPekerja": 64260,
+          "nilai": 48.16
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perdesaan",
+          "pekerja": 33896,
+          "totalPekerja": 102076,
+          "nilai": 33.21
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perkotaan",
+          "pekerja": 25566,
+          "totalPekerja": 58635,
+          "nilai": 43.6
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perdesaan",
+          "pekerja": 32249,
+          "totalPekerja": 113474,
+          "nilai": 28.42
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perkotaan",
+          "pekerja": 6376,
+          "totalPekerja": 63374,
+          "nilai": 10.06
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perdesaan",
+          "pekerja": 12015,
+          "totalPekerja": 116248,
+          "nilai": 10.34
+        }
+      ]
+    },
+    "kesempatan_setara": {
+      "id": "kesempatan_setara",
+      "number": "06",
+      "name": "Kesempatan Setara",
+      "subIndicator": "Proporsi Pekerja Perempuan Menurut Jabatan",
+      "description": "Mengukur partisipasi dan representasi pekerja perempuan di berbagai kategori pekerjaan dan posisi kepemimpinan.",
+      "unit": "%",
+      "metricName": "Keterwakilan Perempuan (%)",
+      "genderData": [
+        {
+          "tahun": 2025,
+          "kategori": "Profesional, Teknisi & Manajerial",
+          "pekerjaPerempuan": 6821,
+          "totalPekerja": 13445,
+          "nilai": 50.73
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Tata Usaha & Pelaksana",
+          "pekerjaPerempuan": 813,
+          "totalPekerja": 2076,
+          "nilai": 39.16
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Tenaga Penjualan",
+          "pekerjaPerempuan": 1228,
+          "totalPekerja": 5594,
+          "nilai": 21.95
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Tenaga Usaha Jasa",
+          "pekerjaPerempuan": 13300,
+          "totalPekerja": 28577,
+          "nilai": 46.54
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Pertanian & Perikanan",
+          "pekerjaPerempuan": 11548,
+          "totalPekerja": 56925,
+          "nilai": 20.29
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Operator & Pekerja Kasar",
+          "pekerjaPerempuan": 11260,
+          "totalPekerja": 48204,
+          "nilai": 23.36
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Profesional, Teknisi & Manajerial",
+          "pekerjaPerempuan": 5991,
+          "totalPekerja": 10265,
+          "nilai": 58.36
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Tata Usaha & Pelaksana",
+          "pekerjaPerempuan": 2292,
+          "totalPekerja": 5205,
+          "nilai": 44.03
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Tenaga Penjualan",
+          "pekerjaPerempuan": 18932,
+          "totalPekerja": 34500,
+          "nilai": 54.88
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Tenaga Usaha Jasa",
+          "pekerjaPerempuan": 2927,
+          "totalPekerja": 5059,
+          "nilai": 57.86
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Pertanian & Perikanan",
+          "pekerjaPerempuan": 21502,
+          "totalPekerja": 82886,
+          "nilai": 25.94
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Operator & Pekerja Kasar",
+          "pekerjaPerempuan": 3928,
+          "totalPekerja": 24779,
+          "nilai": 15.85
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Profesional, Teknisi & Manajerial",
+          "pekerjaPerempuan": 5391,
+          "totalPekerja": null,
+          "nilai": 43.1
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Tata Usaha & Pelaksana",
+          "pekerjaPerempuan": 2253,
+          "totalPekerja": null,
+          "nilai": 28.65
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Tenaga Penjualan",
+          "pekerjaPerempuan": 18312,
+          "totalPekerja": null,
+          "nilai": 63.82
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Tenaga Usaha Jasa",
+          "pekerjaPerempuan": 4947,
+          "totalPekerja": null,
+          "nilai": 64.57
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Pertanian & Perikanan",
+          "pekerjaPerempuan": 23763,
+          "totalPekerja": null,
+          "nilai": 30.39
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Operator & Pekerja Kasar",
+          "pekerjaPerempuan": 4795,
+          "totalPekerja": null,
+          "nilai": 15.27
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Profesional, Teknisi & Manajerial",
+          "pekerjaPerempuan": 5471,
+          "totalPekerja": 12839,
+          "nilai": 42.61
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Tata Usaha & Pelaksana",
+          "pekerjaPerempuan": 3927,
+          "totalPekerja": 8062,
+          "nilai": 48.71
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Tenaga Penjualan",
+          "pekerjaPerempuan": 15165,
+          "totalPekerja": 25924,
+          "nilai": 58.5
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Tenaga Usaha Jasa",
+          "pekerjaPerempuan": 3451,
+          "totalPekerja": 6652,
+          "nilai": 51.88
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Pertanian & Perikanan",
+          "pekerjaPerempuan": 27545,
+          "totalPekerja": 91843,
+          "nilai": 29.99
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Operator & Pekerja Kasar",
+          "pekerjaPerempuan": 4279,
+          "totalPekerja": 26789,
+          "nilai": 15.97
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Profesional, Teknisi & Manajerial",
+          "pekerjaPerempuan": 4986,
+          "totalPekerja": 9046,
+          "nilai": 55.12
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Tata Usaha & Pelaksana",
+          "pekerjaPerempuan": 2295,
+          "totalPekerja": 8104,
+          "nilai": 28.32
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Tenaga Penjualan",
+          "pekerjaPerempuan": 14189,
+          "totalPekerja": 25867,
+          "nilai": 54.85
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Tenaga Usaha Jasa",
+          "pekerjaPerempuan": 3706,
+          "totalPekerja": 7396,
+          "nilai": 50.11
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Pertanian & Perikanan",
+          "pekerjaPerempuan": 39727,
+          "totalPekerja": 104803,
+          "nilai": 37.91
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Operator & Pekerja Kasar",
+          "pekerjaPerempuan": 3439,
+          "totalPekerja": 24406,
+          "nilai": 14.09
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Profesional, Teknisi & Manajerial",
+          "pekerjaPerempuan": 4735,
+          "totalPekerja": 8184,
+          "nilai": 57.86
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Tata Usaha & Pelaksana",
+          "pekerjaPerempuan": 1695,
+          "totalPekerja": 6886,
+          "nilai": 24.62
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Tenaga Penjualan",
+          "pekerjaPerempuan": 13054,
+          "totalPekerja": 24251,
+          "nilai": 53.83
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Tenaga Usaha Jasa",
+          "pekerjaPerempuan": 4141,
+          "totalPekerja": 7222,
+          "nilai": 57.34
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Pertanian & Perikanan",
+          "pekerjaPerempuan": 41955,
+          "totalPekerja": 109886,
+          "nilai": 38.18
+        },
+        {
+          "tahun": 2020,
+          "kategori": "Operator & Pekerja Kasar",
+          "pekerjaPerempuan": 3299,
+          "totalPekerja": 23413,
+          "nilai": 14.09
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Perkotaan",
+          "pekerjaPerempuan": null,
+          "totalPekerja": 3458,
+          "nilai": 6926.0
+        }
+      ],
+      "wilayahData": []
+    },
+    "jaminan_sosial": {
+      "id": "jaminan_sosial",
+      "number": "07",
+      "name": "Jaminan Sosial",
+      "subIndicator": "Kepemilikan Jaminan Sosial Ketenagakerjaan",
+      "description": "Persentase pekerja yang terdaftar dan mendapatkan perlindungan jaminan sosial (kesehatan / ketenagakerjaan / pensiun).",
+      "unit": "%",
+      "metricName": "Cakupan Jamsos (%)",
+      "genderData": [
+        {
+          "tahun": 2025,
+          "kategori": "Total",
+          "pekerja": 28190,
+          "totalBuruh": 57114,
+          "nilai": 49.36
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Laki-laki",
+          "pekerja": 19218,
+          "totalBuruh": 41586,
+          "nilai": 46.21
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Perempuan",
+          "pekerja": 8972,
+          "totalBuruh": 15528,
+          "nilai": 57.78
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Total",
+          "pekerja": 19513,
+          "totalBuruh": 69994,
+          "nilai": 27.88
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Laki-laki",
+          "pekerja": 13334,
+          "totalBuruh": 49718,
+          "nilai": 26.82
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perempuan",
+          "pekerja": 6179,
+          "totalBuruh": 20276,
+          "nilai": 30.47
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Total",
+          "pekerja": 20629,
+          "totalBuruh": null,
+          "nilai": 26.59
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Laki-laki",
+          "pekerja": 15769,
+          "totalBuruh": null,
+          "nilai": 27.7
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perempuan",
+          "pekerja": 4860,
+          "totalBuruh": null,
+          "nilai": 23.54
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Total",
+          "pekerja": 20559,
+          "totalBuruh": 68922,
+          "nilai": 29.83
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Laki-laki",
+          "pekerja": 13793,
+          "totalBuruh": 50079,
+          "nilai": 27.54
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perempuan",
+          "pekerja": 6766,
+          "totalBuruh": 18843,
+          "nilai": 35.91
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Total",
+          "pekerja": 14180,
+          "totalBuruh": 56998,
+          "nilai": 24.88
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Laki-laki",
+          "pekerja": 9854,
+          "totalBuruh": 41047,
+          "nilai": 24.01
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perempuan",
+          "pekerja": 4326,
+          "totalBuruh": 15951,
+          "nilai": 27.12
+        }
+      ],
+      "wilayahData": [
+        {
+          "tahun": 2025,
+          "kategori": "Perdesaan",
+          "pekerja": 10374,
+          "totalBuruh": 30747,
+          "nilai": 33.74
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Perkotaan",
+          "pekerja": 17816,
+          "totalBuruh": 26367,
+          "nilai": 67.57
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perdesaan",
+          "pekerja": 12077,
+          "totalBuruh": 38243,
+          "nilai": 31.58
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perkotaan",
+          "pekerja": 7436,
+          "totalBuruh": 31751,
+          "nilai": 23.42
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perdesaan",
+          "pekerja": 9120,
+          "totalBuruh": null,
+          "nilai": 22.4
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perkotaan",
+          "pekerja": 11509,
+          "totalBuruh": null,
+          "nilai": 31.23
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perkotaan",
+          "pekerja": 10249,
+          "totalBuruh": 31465,
+          "nilai": 32.57
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perdesaan",
+          "pekerja": 10310,
+          "totalBuruh": 37457,
+          "nilai": 27.52
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perkotaan",
+          "pekerja": 6580,
+          "totalBuruh": 23514,
+          "nilai": 27.98
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perdesaan",
+          "pekerja": 7600,
+          "totalBuruh": 33484,
+          "nilai": 22.7
+        }
+      ]
+    },
+    "dialog_sosial": {
+      "id": "dialog_sosial",
+      "number": "08",
+      "name": "Dialog Sosial",
+      "subIndicator": "Partisipasi Serikat Pekerja",
+      "description": "Proporsi pekerja/buruh yang tergabung dalam serikat pekerja/organisasi ketenagakerjaan untuk advokasi hak.",
+      "unit": "%",
+      "metricName": "Pekerja Berserikat (%)",
+      "genderData": [
+        {
+          "tahun": 2025,
+          "kategori": "Total",
+          "pekerja": 4351,
+          "totalPekerja": 57114,
+          "nilai": 7.62
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Laki-laki",
+          "pekerja": 3269,
+          "totalPekerja": 41586,
+          "nilai": 7.86
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Perempuan",
+          "pekerja": 1082,
+          "totalPekerja": 15528,
+          "nilai": 6.97
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Total",
+          "pekerja": 5234,
+          "totalPekerja": 69994,
+          "nilai": 7.48
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Laki-laki",
+          "pekerja": 4315,
+          "totalPekerja": 49718,
+          "nilai": 8.68
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perempuan",
+          "pekerja": 919,
+          "totalPekerja": 20276,
+          "nilai": 4.53
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Total",
+          "pekerja": 6158,
+          "totalPekerja": null,
+          "nilai": 7.94
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Laki-laki",
+          "pekerja": 3440,
+          "totalPekerja": null,
+          "nilai": 6.04
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perempuan",
+          "pekerja": 2718,
+          "totalPekerja": null,
+          "nilai": 13.16
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Total",
+          "pekerja": 10124,
+          "totalPekerja": 68922,
+          "nilai": 14.69
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Laki-laki",
+          "pekerja": 6941,
+          "totalPekerja": 50079,
+          "nilai": 13.86
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perempuan",
+          "pekerja": 3183,
+          "totalPekerja": 18843,
+          "nilai": 16.89
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Total",
+          "pekerja": 3196,
+          "totalPekerja": 56998,
+          "nilai": 5.61
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Laki-laki",
+          "pekerja": 2079,
+          "totalPekerja": 41047,
+          "nilai": 5.06
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perempuan",
+          "pekerja": 1117,
+          "totalPekerja": 15951,
+          "nilai": 7.0
+        }
+      ],
+      "wilayahData": [
+        {
+          "tahun": 2025,
+          "kategori": "Perdesaan",
+          "pekerja": 1879,
+          "totalPekerja": 30747,
+          "nilai": 6.11
+        },
+        {
+          "tahun": 2025,
+          "kategori": "Perkotaan",
+          "pekerja": 2472,
+          "totalPekerja": 26367,
+          "nilai": 9.38
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perdesaan",
+          "pekerja": 2921,
+          "totalPekerja": 38243,
+          "nilai": 7.64
+        },
+        {
+          "tahun": 2024,
+          "kategori": "Perkotaan",
+          "pekerja": 2313,
+          "totalPekerja": 31751,
+          "nilai": 7.28
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perdesaan",
+          "pekerja": 2492,
+          "totalPekerja": null,
+          "nilai": 6.12
+        },
+        {
+          "tahun": 2023,
+          "kategori": "Perkotaan",
+          "pekerja": 3666,
+          "totalPekerja": null,
+          "nilai": 9.95
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perkotaan",
+          "pekerja": 6502,
+          "totalPekerja": 31465,
+          "nilai": 20.66
+        },
+        {
+          "tahun": 2022,
+          "kategori": "Perdesaan",
+          "pekerja": 3622,
+          "totalPekerja": 37457,
+          "nilai": 9.67
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perkotaan",
+          "pekerja": 1646,
+          "totalPekerja": 23514,
+          "nilai": 7.0
+        },
+        {
+          "tahun": 2021,
+          "kategori": "Perdesaan",
+          "pekerja": 1550,
+          "totalPekerja": 33484,
+          "nilai": 4.63
+        }
+      ]
+    }
+  }
+}
