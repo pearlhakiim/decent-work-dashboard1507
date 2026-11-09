@@ -5,14 +5,12 @@ import {
   Eye,
   EyeOff,
   AlertCircle,
-  Info,
   X,
   HelpCircle
 } from 'lucide-react';
 import {
   authenticateUser,
-  getRememberedUsername,
-  REGISTERED_USERS
+  getRememberedUsername
 } from '../data/auth';
 import loginHeroImage from '../assets/login-bg.jpg';
 import logoImg from '../assets/logo.png';
@@ -25,9 +23,8 @@ export default function LoginPage({ onLoginSuccess }) {
   const [errorMsg, setErrorMsg] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
-  // Modal / Tab States
+  // Modal State
   const [showForgotModal, setShowForgotModal] = useState(false);
-  const [showDemoUsers, setShowDemoUsers] = useState(false);
 
   const handleLoginSubmit = (e) => {
     e.preventDefault();
@@ -48,12 +45,6 @@ export default function LoginPage({ onLoginSuccess }) {
         setErrorMsg(result.message);
       }
     }, 450);
-  };
-
-  const handleQuickFill = (user) => {
-    setUsername(user.username);
-    setPassword(user.password);
-    setErrorMsg('');
   };
 
   return (
@@ -219,47 +210,6 @@ export default function LoginPage({ onLoginSuccess }) {
               </button>
             </div>
           </form>
-
-          {/* Quick Demo User Credentials Helper */}
-          <div className="mt-6 pt-4 border-t border-slate-100 text-center">
-            <button
-              type="button"
-              onClick={() => setShowDemoUsers(!showDemoUsers)}
-              className="inline-flex items-center gap-1.5 text-[11px] font-semibold text-blue-600 hover:text-blue-800 hover:underline"
-            >
-              <Info className="w-3.5 h-3.5" />
-              <span>{showDemoUsers ? 'Sembunyikan Akun Contoh' : 'Lihat Akun Terdaftar (Demo)'}</span>
-            </button>
-
-            {showDemoUsers && (
-              <div className="mt-3 p-3 rounded-2xl bg-blue-50/50 border border-blue-100 text-left text-xs space-y-2 animate-fadeIn">
-                <p className="text-[10px] text-blue-800 font-bold uppercase">
-                  Klik untuk mengisi otomatis:
-                </p>
-                <div className="space-y-1.5">
-                  {REGISTERED_USERS.map((usr, i) => (
-                    <div
-                      key={i}
-                      onClick={() => handleQuickFill(usr)}
-                      className="p-2 rounded-xl bg-white border border-blue-200/80 hover:border-blue-500 hover:bg-blue-50/80 cursor-pointer transition-all flex items-center justify-between"
-                    >
-                      <div>
-                        <span className="font-bold text-slate-800 block text-[11px]">
-                          {usr.name} ({usr.role})
-                        </span>
-                        <span className="text-[10px] text-slate-500 font-mono">
-                          User: <strong className="text-blue-700">{usr.username}</strong> | Pass: {usr.password}
-                        </span>
-                      </div>
-                      <span className="text-[10px] font-bold text-blue-700 px-2 py-0.5 rounded bg-blue-100">
-                        Pilih
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-          </div>
         </div>
       </div>
 
@@ -270,7 +220,7 @@ export default function LoginPage({ onLoginSuccess }) {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2 text-blue-900 font-bold text-sm">
                 <HelpCircle className="w-5 h-5 text-blue-600" />
-                <span>Bantuan Reset Password</span>
+                <span>Bantuan Akses Akun</span>
               </div>
               <button
                 onClick={() => setShowForgotModal(false)}
@@ -281,29 +231,21 @@ export default function LoginPage({ onLoginSuccess }) {
             </div>
 
             <p className="text-xs text-slate-600 leading-relaxed">
-              Situs ini dilindungi untuk pengguna resmi instansi daerah. Jika Anda lupa kata sandi akun resmi Anda, silakan hubungi tim administrator BPS Kabupaten Tanjung Jabung Barat:
+              Situs ini dilindungi untuk pengguna resmi instansi BPS Kabupaten Tanjung Jabung Barat. Jika Anda lupa kata sandi atau membutuhkan akses, silakan hubungi tim administrator:
             </p>
 
             <div className="p-3.5 rounded-2xl bg-blue-50 border border-blue-200 text-xs text-blue-950 space-y-1">
               <div className="font-bold">BPS Kab. Tanjung Jabung Barat</div>
-              <div>Email: bps1506@bps.go.id</div>
-              <div>Telp: (0742) 21015 / Layanan PST</div>
-            </div>
-
-            <div className="text-[11px] text-slate-500">
-              Atau gunakan akun demo default: <strong className="font-mono text-slate-800">admin</strong> / <strong className="font-mono text-slate-800">password123</strong>
+              <div>Email: bps1507@bps.go.id</div>
+              <div>Telp: (0742) 21015 / Layanan PST BPS Tanjab Barat</div>
             </div>
 
             <button
               type="button"
-              onClick={() => {
-                setUsername('admin');
-                setPassword('password123');
-                setShowForgotModal(false);
-              }}
-              className="w-full py-2.5 rounded-xl bg-blue-700 text-white font-bold text-xs hover:bg-blue-800 transition-colors"
+              onClick={() => setShowForgotModal(false)}
+              className="w-full py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-bold text-xs transition-colors cursor-pointer"
             >
-              Gunakan Akun Admin Demo
+              Tutup
             </button>
           </div>
         </div>
