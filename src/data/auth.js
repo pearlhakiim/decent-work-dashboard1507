@@ -11,15 +11,8 @@ export const REGISTERED_USERS = [
   {
     username: 'bps1507',
     password: 'bps1507',
-    name: 'Tim 1507 BPS Tanjab Barat',
-    role: 'Tim 1507',
-    instansi: 'BPS Kab. Tanjung Jabung Barat'
-  },
-  {
-    username: 'bps1506',
-    password: 'bps1506',
-    name: 'Tim BPS Kab. Tanjab Barat',
-    role: 'Statistisi Ahli',
+    name: 'Tim BPS 1507',
+    role: 'Tim BPS 1507',
     instansi: 'BPS Kab. Tanjung Jabung Barat'
   }
 ];
