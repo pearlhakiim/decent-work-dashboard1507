@@ -12,6 +12,7 @@ export default function App() {
   const [activeGroupId, setActiveGroupId] = useState('overview');
   const [activeSubId, setActiveSubId] = useState(null);
   const [selectedYear, setSelectedYear] = useState(indikatorData.meta.defaultYear || 2025);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
   const handleLogout = () => {
     logoutUser();
@@ -32,9 +33,19 @@ export default function App() {
       : (activeGroup ? Object.values(activeGroup.sub_indicators || {})[0] : null);
 
   return (
-    <div className="flex min-h-screen bg-slate-50 text-slate-800 antialiased font-sans">
+    <div className="flex min-h-screen bg-slate-50 text-slate-800 antialiased font-sans relative overflow-x-hidden">
+      {/* Mobile Backdrop when Sidebar is open */}
+      {isSidebarOpen && (
+        <div
+          onClick={() => setIsSidebarOpen(false)}
+          className="fixed inset-0 bg-slate-950/60 z-20 backdrop-blur-xs lg:hidden transition-opacity"
+        />
+      )}
+
       {/* Sidebar Navigation */}
       <Sidebar
+        isOpen={isSidebarOpen}
+        onClose={() => setIsSidebarOpen(false)}
         indicatorGroups={indikatorData.indicator_groups}
         activeGroupId={activeGroupId}
         setActiveGroupId={setActiveGroupId}
@@ -54,6 +65,8 @@ export default function App() {
           activeSub={activeSub}
           currentUser={currentUser}
           onLogout={handleLogout}
+          isSidebarOpen={isSidebarOpen}
+          onToggleSidebar={() => setIsSidebarOpen((prev) => !prev)}
         />
 
         <main className="flex-1 p-6 sm:p-8 max-w-7xl w-full mx-auto">
